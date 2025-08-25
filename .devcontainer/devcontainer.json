@@ -9,7 +9,7 @@
 			"omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions https://github.com/zsh-users/zsh-syntax-highlighting",
 			"username": "vscode"
 		},
-		"ghcr.io/devcontainers-contrib/features/pre-commit:2": {}
+		"ghcr.io/devcontainers-extra/features/pre-commit:2": {}
 	},
 	"customizations": {
 	  "vscode": {
