@@ -4,7 +4,7 @@
 	"name": "devcontainer1",
 	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
 	"mounts": [
-        "type=bind,source=${localEnv:HOME}/.ssh,target=/root/.ssh,readonly"
+    	"type=bind,source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/vscode/.ssh,readOnly=true"
       ],
 	"features": {
 		"ghcr.io/devcontainers-extra/features/zsh-plugins:0": {
