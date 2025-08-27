@@ -3,6 +3,9 @@
 {
 	"name": "devcontainer1",
 	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
+	"mounts": [
+        "type=bind,source=${localEnv:HOME}/.ssh,target=/root/.ssh,readonly"
+      ],
 	"features": {
 		"ghcr.io/devcontainers-extra/features/zsh-plugins:0": {
 			"plugins": "ssh-agent npm",
